@@ -13,7 +13,7 @@ after failures, and explaining mismatches between business records.
 
 | Project | What to inspect | Verified execution |
 |---|---|---|
-| [Retail ELT warehouse](https://github.com/SaiHemanthRaj/retail-elt-warehouse) | Incremental MERGE, SCD Type 2, sales facts, reconciliation | DuckDB SQL and Python; Snowflake path awaits account validation |
+| [Retail ELT warehouse](https://github.com/SaiHemanthRaj/retail-elt-warehouse) | Incremental MERGE, SCD Type 2, sales facts, reconciliation | DuckDB and Snowflake Snowpark Python; cloud replay and rollback verified |
 | [Replayable retail pipeline](https://github.com/SaiHemanthRaj/cloud-data-platform-portfolio) | Immutable raw landing, quarantine, replay, Spark aggregation | Python, SQLite, local PySpark, Parquet; S3 adapter contract tests |
 | [Ledger reconciliation](https://github.com/SaiHemanthRaj/ledger-reconciliation) | SQL matching rules, duplicate diagnostics, currency-safe exceptions | Python and SQLite with reproducible reports |
 
